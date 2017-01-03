@@ -1,3 +1,4 @@
+// Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 pretty();
 
