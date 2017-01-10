@@ -23,4 +23,4 @@ print (t);
 db.application.find({ "signupdate" : {"$gte": new Date("2000-01-01T00:00:00.000Z")} }).count();
 
 // and before the year 2000:
-db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z")} }).count();
+db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z")} }).count();// TODO: Add database indexing for faster queries
