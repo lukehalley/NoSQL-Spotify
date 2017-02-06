@@ -32,3 +32,4 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // Tracks collection schema: id, name, artist, album, popularity, duration
 // Errors handled: connection failures, invalid queries, timeout exceptions
 // TODO: Implement Redis caching for popular artist and track lookups
+// Filter by matching user preferences to reduce dataset before sorting
