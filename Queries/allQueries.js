@@ -41,3 +41,9 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
  */
 // Genre comparison uses case-insensitive regex to handle mixed case data
 // TODO: Cache results for top 100 artists to reduce database load
+/**
+ * Sorts tracks by popularity metric
+ * @param {Array} tracks - Array of track objects
+ * @param {string} order - 'asc' or 'desc' sort direction
+ * @returns {Array} Sorted tracks
+ */
