@@ -5,6 +5,11 @@
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 pretty();
+/**
+ * Query all Spotify tracks matching search criteria
+ * @param {string} query - Search query string
+ * @returns {Array} Array of track objects
+ */
 
 // Find the document with the userId: U001 
 db.application.find({"userId":"U001"}).pretty();
