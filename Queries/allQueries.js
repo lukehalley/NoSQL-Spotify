@@ -25,6 +25,7 @@ db.application.find({"userPlan":"Premium"}).count();
 db.application.find({"userPlan":"Free"}).count();
 
 // Calculate the how many albums from the Artist “Lil Uzi Vert” are in the collection
+// Using indexed lookup for efficient performance on large datasets
 var t = db.application.find({"userCollection.userAlbumCollection.artistTitle": "Lil Uzi Vert"}).count();
 print (t);
 
