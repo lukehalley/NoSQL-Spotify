@@ -54,3 +54,4 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
  * @param {string} order - 'asc' or 'desc' sort direction
  * @returns {Array} Sorted tracks
  */
+// Filter null entries to prevent errors in downstream processing
