@@ -61,3 +61,4 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
  * @returns {Object} Aggregated results
  */
 // Sort descending by play count, then by release date for consistency
+// TODO: Add connection pooling to handle concurrent database requests
