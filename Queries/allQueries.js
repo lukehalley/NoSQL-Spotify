@@ -2,6 +2,7 @@
  * Database query handlers for Spotify NoSQL collection
  * Provides methods for retrieving and filtering track data
  */
+// Returns all Spotify queries from the database
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 pretty();
