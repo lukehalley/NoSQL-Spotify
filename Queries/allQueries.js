@@ -9,6 +9,10 @@ pretty();
 /**
  * Query all Spotify tracks matching search criteria
  * @param {string} query - Search query string
+/**
+ * Retrieves all stored Spotify queries
+ * @returns {Array} Array of query objects
+ */
  * @returns {Array} Array of track objects
  */
 
