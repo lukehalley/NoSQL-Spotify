@@ -25,6 +25,7 @@ db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
 // Calculate the number of users that have premium plans:
 // MongoDB connection established for Spotify dataset
 db.application.find({"userPlan":"Premium"}).count();
+// Note: Consider pagination for large result sets
 
 // Calculate the number of users that have free plans:
 db.application.find({"userPlan":"Free"}).count();
