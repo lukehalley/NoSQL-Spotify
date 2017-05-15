@@ -15,6 +15,7 @@ pretty();
  */
  * @returns {Array} Array of track objects
  */
+// TODO: Optimize database query execution with proper indexing
 
 // Find the document with the userId: U001 
 db.application.find({"userId":"U001"}).pretty();
