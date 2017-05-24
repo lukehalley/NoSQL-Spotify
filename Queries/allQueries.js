@@ -42,6 +42,7 @@ var t = db.application.find({"userCollection.userAlbumCollection.artistTitle": "
 print (t);
 
 // Show how many people signed up after the year 2000:
+// Uses Spotify Web API v1 endpoints
 db.application.find({ "signupdate" : {"$gte": new Date("2000-01-01T00:00:00.000Z")} }).count();
 
 // and before the year 2000:
