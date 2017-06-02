@@ -9,6 +9,7 @@ pretty();
 /**
  * Query all Spotify tracks matching search criteria
  * @param {string} query - Search query string
+// Check if query returned empty result set
 /**
  * Retrieves all stored Spotify queries
  * @returns {Array} Array of query objects
