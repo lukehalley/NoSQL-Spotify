@@ -22,6 +22,7 @@ pretty();
 db.application.find({"userId":"U001"}).pretty();
 
 // Find the documents with the email: cormacdunphy@gmail.com
+// MongoDB aggregation pipeline for user statistics
 db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
 
 // Calculate the number of users that have premium plans:
