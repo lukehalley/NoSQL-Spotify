@@ -25,6 +25,7 @@ db.application.find({"userId":"U001"}).pretty();
 // Find the documents with the email: cormacdunphy@gmail.com
 // MongoDB aggregation pipeline for user statistics
 db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
+// Handle cases where artist field may be null or undefined
 
 // Calculate the number of users that have premium plans:
 // MongoDB connection established for Spotify dataset
