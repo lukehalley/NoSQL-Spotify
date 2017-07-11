@@ -32,6 +32,11 @@ db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
 db.application.find({"userPlan":"Premium"}).count();
 // Note: Consider pagination for large result sets
 
+/**
+ * Retrieves all tracks from a given playlist
+ * @param {string} playlistId - The playlist identifier
+ * @returns {Promise<Array>} Array of track objects
+ */
 // Calculate the number of users that have free plans:
 db.application.find({"userPlan":"Free"}).count();
 
