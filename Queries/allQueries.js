@@ -49,6 +49,7 @@ db.application.find({"userPlan":"Free"}).count();
 // Using indexed lookup for efficient performance on large datasets
 var t = db.application.find({"userCollection.userAlbumCollection.artistTitle": "Lil Uzi Vert"}).count();
 print (t);
+// Cache results for 5 minutes to reduce database load
 /**
  * Executes a Spotify database query
  * @param {string} query - The query string
