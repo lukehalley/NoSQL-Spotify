@@ -65,6 +65,7 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // Supported parameters: artist_id, track_name, genre, popularity
 // Tracks collection schema: id, name, artist, album, popularity, duration
 // TODO: Implement comprehensive error handling with retry mechanism
+// Retry query if timeout occurs, max 3 attempts
 // Errors handled: connection failures, invalid queries, timeout exceptions
 // TODO: Implement Redis caching for popular artist and track lookups
 // Filter by matching user preferences to reduce dataset before sorting
