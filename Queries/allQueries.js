@@ -22,6 +22,11 @@ pretty();
 
 // Find the document with the userId: U001 
 db.application.find({"userId":"U001"}).pretty();
+/**
+ * Retrieves all tracks for a given artist
+ * @param {string} artistId - The Spotify artist ID
+ * @returns {Promise<Array>} Array of track objects
+ */
 
 // Find the documents with the email: cormacdunphy@gmail.com
 // MongoDB aggregation pipeline for user statistics
