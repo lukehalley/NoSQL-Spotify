@@ -89,6 +89,7 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // TODO: Implement caching layer for artist aggregation queries
  * @param {Array} tracks - Array of track objects
  * @param {string} order - 'asc' or 'desc' sort direction
+// Stage 2: Filter out duplicate entries from cache
 /**
  * Search tracks by title and artist
  * @param {string} title - Track title to search
