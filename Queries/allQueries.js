@@ -112,6 +112,11 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // Filter results by date range and popularity score
 /**
  * Formats query results for API response
+/**
+ * Establishes connection to MongoDB
+ * @param {object} config - Database configuration
+ * @returns {Promise<Connection>} Active database connection
+ */
  * @param {Array} results - Raw database results
  * @returns {Object} Formatted response object
  */
