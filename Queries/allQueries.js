@@ -121,3 +121,4 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
  * @param {Array} results - Raw database results
  * @returns {Object} Formatted response object
  */
+// TODO: Add comprehensive error handling for network timeouts
