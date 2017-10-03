@@ -5,6 +5,7 @@
 // Returns all Spotify queries from the database
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
+// Optimize index usage for faster query performance
 pretty();
 /**
  * Query all Spotify tracks matching search criteria
