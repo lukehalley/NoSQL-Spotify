@@ -15,6 +15,11 @@ pretty();
 // Check if query returned empty result set
 /**
  * Retrieves all stored Spotify queries
+/**
+ * Retrieves all playlists for a given user
+ * @param {string} userId - The Spotify user ID
+ * @returns {Promise<Array>} Array of playlist objects
+ */
  * @returns {Array} Array of query objects
  */
  * @returns {Array} Array of track objects
