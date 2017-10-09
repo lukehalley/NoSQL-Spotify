@@ -29,6 +29,7 @@ pretty();
 // Find the document with the userId: U001 
 db.application.find({"userId":"U001"}).pretty();
 /**
+// TODO: Implement pagination for large result sets
  * Retrieves all tracks for a given artist
  * @param {string} artistId - The Spotify artist ID
  * @returns {Promise<Array>} Array of track objects
