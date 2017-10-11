@@ -1,0 +1,222 @@
+db.customer.insert({
+    "userId": "U002",
+    "userFName": "Cormac",
+    "userLName": "Dunphy",
+    "streetAddress": "Lower Ballyshonock",
+    "townCity": "Kilmacthomas",
+    "countyState": "Waterford",
+    "country": "Ireland",
+    "email": "cormacdunphy@gmail.com",
+    "phoneNumber": "083 1324576",
+    "userPlan": "Free",
+    "userPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P285",
+                    "playlistTitle": "Drawing",
+                    "playlistDescription": "For when I am drawing",
+                    "track-one": [
+                        {
+                            "trackId": "T727",
+                            "trackTitle": "We Go",
+                            "trackGenre": "Tech House",
+                            "artistID": "AR721",
+                            "artistTitle": "JWalker"
+                        }
+                    ],
+                    "track-two": [
+                        {
+                            "trackId": "T023",
+                            "trackTitle": "Dont",
+                            "trackGenre": "Techno",
+                            "artistID": "AR882",
+                            "artistTitle": "Fenai"
+                        }
+                    ],
+                    "track-three": [
+                        {
+                            "trackId": "T048",
+                            "trackTitle": "Process",
+                            "trackGenre": "Tech House",
+                            "artistID": "AR443",
+                            "artistTitle": "Inker"
+                        }
+                    ]
+                }
+            ],
+            "playlist-two": [
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P522",
+                    "playlistTitle": "Workout",
+                    "playlistDescription": "The best songs for a workout",
+                    "track-one": [
+                        {
+                            "trackId": "TR750",
+                            "trackTitle": "Peer",
+                            "trackGenre": "House",
+                            "artistID": "AR453",
+                            "artistTitle": "Nuria Yurt"
+                        }
+                    ],
+                    "track-two": [
+                        {
+                            "trackId": "TR440",
+                            "trackTitle": "Lerr",
+                            "trackGenre": "House",
+                            "artistID": "AR234",
+                            "artistTitle": "Arjun Veer"
+                        }
+                    ],
+                    "track-three": [
+                        {
+                            "trackId": "TR112",
+                            "trackTitle": "Given It Down",
+                            "trackGenre": "Indie",
+                            "artistID": "AR722",
+                            "artistTitle": "Ben Klock"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "userCollection": [
+        {
+            "collectionAlbums": [
+                {
+                    "album-one": [
+                        {
+                            "albumId": "AL88",
+                            "albumTitle": "Luv Is Rage 2",
+                            "albumGenre": "Hip Hop",
+                            "artistID": "AR636",
+                            "artistTitle": "Lil Uzi Vert"
+                        }
+                    ],
+                    "album-two": [
+                        {
+                            "albumId": "AL21",
+                            "albumTitle": "Dirty Sprite 2",
+                            "albumGenre": "Hip Hop",
+                            "artistID": "AR558",
+                            "artistTitle": "Future"
+                        }
+                    ],
+                    "album-three": [
+                        {
+                            "albumId": "AL10",
+                            "albumTitle": "Fading Hurtful",
+                            "albumGenre": "House",
+                            "artistID": "AR244",
+                            "artistTitle": "George Fitzgerald"
+                        }
+                    ]
+                }
+            ],
+            "collectionTracks": [
+                {
+                    "track-one": [
+                        {
+                            "trackId": "TR555",
+                            "trackTitle": "Set Me Alight",
+                            "trackGenre": "Drum & Bass",
+                            "artistID": "AR843",
+                            "artistTitle": "Proper"
+                        }
+                    ],
+                    "track-two": [
+                        {
+                            "trackId": "TR323",
+                            "trackTitle": "Immer",
+                            "trackGenre": "Drum & Bass",
+                            "artistID": "AR882",
+                            "artistTitle": "Croka"
+                        }
+                    ],
+                    "track-three": [
+                        {
+                            "trackId": "TR220",
+                            "trackTitle": "Bounce",
+                            "trackGenre": "Techno",
+                            "artistID": "AR633",
+                            "artistTitle": "Ben Timper"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "followingArtists": [
+        {
+            "artistOne": [
+                {
+                    "artistId": "AR254",
+                    "artistName": "Patrick Topping",
+                    "artistDescription": "Patrick Topping (born 25 February 1989) is a British, Newcastle born, DJ and producer. With releases on Hot Creations, Hottrax and Relief Records Patrick has hit Number 1's on the Beatport Tech House charts, and received DJ Awards for Newcomer DJ and Track Of The Season in Ibiza for his summer hit Forget"
+                }
+            ],
+            "artist-two": [
+                {
+                    "artistId": "AR128",
+                    "artistName": "Hot Since 82",
+                    "artistDescription": "Daley Padley, also known as Hot Since 82 is a British DJ, house music producer and DJ Awards winner currently based in Leeds, UK. He has been releasing music under the Hot Since 82 moniker since 2012. His music has been rapidly gaining in popularity, with Mixmag Magazine describing his progression in the house scene as meteoric."
+                }
+            ],
+            "artist-three": [
+                {
+                    "artistId": "AR571",
+                    "artistName": "George Fitzgerald",
+                    "artistDescription": "FitzGerald was an employee at the London record store Black Market Records in the mid-2000s, and began issuing records of his own after relocating to Berlin in 2010. He issued singles and EPs on the labels Hotflush, Aus Music, and Hypercolour in the early 2010s and signed with Double Six Recordings in 2013. In 2015, he issued his first full-length album for that label, which included appearances from vocalists Lawrence Hart and Boxed In."
+                }
+            ],
+            "artist-four": [
+                {
+                    "artistId": "AR327",
+                    "artistName": "Shadow Child",
+                    "artistDescription": "Simon Neale (born 20 January 1977), known by his stage names Shadow Child and Dave Spoon, is an English radio DJ and dance music producer. He's also part of the duo Avec alongside Doorly.He was part of the line-up on BBC Radio 1's In New DJs We Trust feature, which ran from Thursdaynight to Friday morning at 2 am to 4 am. The DJ has become notable for his hits, Bad Girl (At Night) with Lisa Maffia and Baditude with Sam Obernik. "
+                }
+            ]
+        }
+    ],
+    "followingPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P742",
+                    "playlistTitle": "House",
+                    "playlistDescription": "House!!!",
+                    "track-one": [
+                        {
+                            "trackId": "TR802",
+                            "trackTitle": "Down",
+                            "trackGenre": "House",
+                            "artistID": "AR620",
+                            "artistTitle": "Intt"
+                        }
+                    ]
+                }
+            ],
+            "playlist-two": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P523",
+                    "playlistTitle": "Techno Bangers",
+                    "playlistDescription": "The Heavy Stuff!",
+                    "track-one": [
+                        {
+                            "trackId": "TR318",
+                            "trackTitle": "Fyee",
+                            "trackGenre": "Techno",
+                            "artistID": "AR425",
+                            "artistTitle": "Nuria Bangs"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+});
