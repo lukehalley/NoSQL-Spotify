@@ -56,6 +56,12 @@ db.application.find({"userPlan":"Free"}).count();
 
 // Calculate the how many albums from the Artist “Lil Uzi Vert” are in the collection
 /**
+ * Search for tracks in the Spotify database
+ * @param {string} query - Search query string
+ * @param {number} limit - Maximum number of results
+ * @returns {Promise<Array>} Array of matching track objects
+ */
+/**
  * Validates query input parameters
  * @param {Object} params - Query filter parameters
  * @returns {boolean} Validation result
