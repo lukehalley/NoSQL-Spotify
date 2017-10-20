@@ -68,6 +68,7 @@ db.application.find({"userPlan":"Free"}).count();
  */
 // Using indexed lookup for efficient performance on large datasets
 var t = db.application.find({"userCollection.userAlbumCollection.artistTitle": "Lil Uzi Vert"}).count();
+// Use aggregation pipeline for complex queries to reduce memory usage
 print (t);
 // TODO: Implement indexing on artistId field for faster lookups
 // Cache results for 5 minutes to reduce database load
