@@ -1,0 +1,229 @@
+{
+    "_id": {
+        "$oid": "59e8c7e4f36d280364367d56"
+    },
+    "userId": "U001",
+    "userFName": "Luke",
+    "userLName": "Kelly",
+    "streetAddress": "Lower Ballyshonock",
+    "townCity": "Kilmacthomas",
+    "countyState": "Waterford",
+    "country": "Ireland",
+    "email": "luke123halley@gmail.com",
+    "phoneNumber": "083 1995649",
+    "userPlan": "Premium",
+    "signupdate": {
+        "$date": "2010-07-20T23:23:50.000Z"
+    },
+    "userPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "T538",
+                    "trackTitle": "In My Head",
+                    "trackGenre": "Tech House",
+                    "trackLength": "664",
+                    "artistID": "AR732",
+                    "artistTitle": "Superpitcher"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "T432",
+                    "trackTitle": "Carry On",
+                    "trackGenre": "Tech House",
+                    "trackLength": "431",
+                    "artistID": "AR548",
+                    "artistTitle": "Daphni"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "T394",
+                    "trackTitle": "Rodent",
+                    "trackGenre": "Tech House",
+                    "trackLength": "452",
+                    "artistID": "AR412",
+                    "artistTitle": "Burial"
+                }
+            ],
+            "playlist-two": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P554",
+                    "playlistTitle": "Techno Bunker",
+                    "playlistDescription": "The best and latest Techno",
+                    "trackId": "TR338",
+                    "trackTitle": "Uncoded",
+                    "trackGenre": "Techno",
+                    "trackLength": "443",
+                    "artistID": "AR455",
+                    "artistTitle": "Nuria Ghia"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "TR482",
+                    "trackTitle": "Le Freak",
+                    "trackGenre": "Techno",
+                    "trackLength": "232",
+                    "artistID": "AR027",
+                    "artistTitle": "Arjun Vagale"
+                }
+            ]
+        }
+    ],
+    "userCollection": [
+        {
+            "userAlbumCollection": [
+                {
+                    "albumId": "AL88",
+                    "albumTitle": "Luv Is Rage",
+                    "albumGenre": "Hip Hop",
+                    "artistID": "AR636",
+                    "artistTitle": "Lil Uzi Vert"
+                },
+                {
+                    "albumId": "AL14",
+                    "albumTitle": "Luv Is Rage 2",
+                    "albumGenre": "Hip Hop",
+                    "artistID": "AR558",
+                    "artistTitle": "Lil Uzi Vert"
+                },
+                {
+                    "albumId": "AL09",
+                    "albumTitle": "Fading Love",
+                    "albumGenre": "Techno",
+                    "artistID": "AR242",
+                    "artistTitle": "George Fitzgerald"
+                }
+            ],
+            "userSongCollection": [
+                {
+                    "trackId": "TR550",
+                    "trackTitle": "Set Me On Fire",
+                    "trackGenre": "Drum & Bass",
+                    "trackLength": "435",
+                    "artistID": "AR845",
+                    "artistTitle": "Pendulum"
+                },
+                {
+                    "trackId": "TR282",
+                    "trackTitle": "Immunize",
+                    "trackGenre": "Drum & Bass",
+                    "trackLength": "146",
+                    "artistID": "AR864",
+                    "artistTitle": "Pendulum"
+                },
+                {
+                    "trackId": "TR224",
+                    "trackTitle": "Given It Up",
+                    "trackGenre": "Techno",
+                    "trackLength": "443",
+                    "artistID": "AR673",
+                    "artistTitle": "Ben Dust"
+                }
+            ]
+        }
+    ],
+    "followingArtists": [
+        {
+            "artistId": "AR254",
+            "artistName": "Patrick Topping",
+            "artistDescription": "Patrick Topping (born 25 February 1989) is a British, Newcastle born"
+        },
+        {
+            "artistId": "AR128",
+            "artistName": "Hot Since 82",
+            "artistDescription": "Daley Padley, also known as Hot Since 82"
+        },
+        {
+            "artistId": "AR571",
+            "artistName": "George Fitzgerald",
+            "artistDescription": "FitzGerald was an employee at the London record store"
+        },
+        {
+            "artistId": "AR327",
+            "artistName": "Shadow Child",
+            "artistDescription": "Simon Neale (born 20 January 1977), known by his stage names Shadow Child"
+        }
+    ],
+    "followingPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "TR808",
+                    "trackTitle": "Coconuts",
+                    "trackGenre": "House",
+                    "trackLength": "123",
+                    "artistID": "AR610",
+                    "artistTitle": "Fouk"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "TR82",
+                    "trackTitle": "Le Freak",
+                    "trackGenre": "Techno",
+                    "trackLength": "254",
+                    "artistID": "AR017",
+                    "artistTitle": "Arjun Vagale"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P285",
+                    "playlistTitle": "24/7 Tech House",
+                    "playlistDescription": "Only the best tech house",
+                    "trackId": "TR42",
+                    "trackTitle": "Given It Up",
+                    "trackGenre": "Techno",
+                    "trackLength": "207",
+                    "artistID": "AR733",
+                    "artistTitle": "Ben Dust"
+                }
+            ],
+            "playlist-two": [
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P744",
+                    "playlistTitle": "Lo-Fi House",
+                    "playlistDescription": "Distorted aand rough around the edges, this is Lo-Fi House",
+                    "trackId": "TR38",
+                    "trackTitle": "Uncoded",
+                    "trackGenre": "Techno",
+                    "trackLength": "342",
+                    "artistID": "AR425",
+                    "artistTitle": "Nuria Ghia"
+                },
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P744",
+                    "playlistTitle": "Lo-Fi House",
+                    "playlistDescription": "Distorted aand rough around the edges, this is Lo-Fi House",
+                    "trackId": "TR482",
+                    "trackTitle": "Le Freak",
+                    "trackGenre": "Techno",
+                    "trackLength": "232",
+                    "artistID": "AR027",
+                    "artistTitle": "Arjun Vagale"
+                }
+            ]
+        }
+    ]
+}

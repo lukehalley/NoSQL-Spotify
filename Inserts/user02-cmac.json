@@ -1,179 +1,181 @@
-{  
-   "_id":{  
-      "$oid":"59f07831f36d285569301e09"
-   },
-   "userId":"U002",
-   "userFName":"Cormac",
-   "userLName":"Dunphy",
-   "streetAddress":"Lower Ballyshonock",
-   "townCity":"Kilmacthomas",
-   "countyState":"Waterford",
-   "country":"Ireland",
-   "email":"cormacdunphy@gmail.com",
-   "phoneNumber":"083 1324576",
-   "userPlan":"Free",
-   "signupDate":"2012-11-09T14:32:11",
-   "userPlaylists":[  
-      {  
-         "playlist-one":[  
-            {  
-               "playlistOwnerId":"U002",
-               "playlistId":"P285",
-               "playlistTitle":"Drawing",
-               "playlistDescription":"For when I am drawing",
-               "trackId":"T727",
-               "trackTitle":"We Go",
-               "trackGenre":"Tech House",
-               "artistID":"AR721",
-               "artistTitle":"JWalker"
-            },
-            {  
-               "playlistOwnerId":"U002",
-               "playlistId":"P285",
-               "playlistTitle":"Drawing",
-               "playlistDescription":"For when I am drawing",
-               "trackId":"T023",
-               "trackTitle":"Dont",
-               "trackGenre":"Techno",
-               "artistID":"AR882",
-               "artistTitle":"Fenai"
-            },
-            {  
-               "playlistOwnerId":"U002",
-               "playlistId":"P285",
-               "playlistTitle":"Drawing",
-               "playlistDescription":"For when I am drawing",
-               "trackId":"T048",
-               "trackTitle":"Process",
-               "trackGenre":"Tech House",
-               "artistID":"AR443",
-               "artistTitle":"Inker"
-            }
-         ],
-         "playlist-two":[  
-            {  
-               "playlistOwnerId":"U002",
-               "playlistId":"P522",
-               "playlistTitle":"Workout",
-               "playlistDescription":"The best songs for a workout",
-               "trackId":"TR750",
-               "trackTitle":"Peer",
-               "trackGenre":"House",
-               "artistID":"AR453",
-               "artistTitle":"Nuria Yurt"
-            },
-            {  
-               "playlistOwnerId":"U002",
-               "playlistId":"P522",
-               "playlistTitle":"Workout",
-               "playlistDescription":"The best songs for a workout",
-               "trackId":"TR440",
-               "trackTitle":"Lerr",
-               "trackGenre":"House",
-               "artistID":"AR234",
-               "artistTitle":"Arjun Veer"
-            }
-         ]
-      }
-   ],
-   "userCollection":[  
-      {  
-         "userAlbumCollection":[  
-            {  
-               "albumId":"AL88",
-               "albumTitle":"Luv Is Rage 2",
-               "albumGenre":"Hip Hop",
-               "artistID":"AR636",
-               "artistTitle":"Lil Uzi Vert"
-            },
-            {  
-               "albumId":"AL21",
-               "albumTitle":"Dirty Sprite 2",
-               "albumGenre":"Hip Hop",
-               "artistID":"AR558",
-               "artistTitle":"Future"
-            },
-            {  
-               "albumId":"AL10",
-               "albumTitle":"Fading Hurtful",
-               "albumGenre":"House",
-               "artistID":"AR244",
-               "artistTitle":"George Fitzgerald"
-            }
-         ],
-         "userTrackollection":[  
-            {  
-               "trackId":"TR555",
-               "trackTitle":"Set Me Alight",
-               "trackGenre":"Drum & Bass",
-               "artistID":"AR843",
-               "artistTitle":"Pendulum"
-            },
-            {  
-               "trackId":"TR323",
-               "trackTitle":"Immer",
-               "trackGenre":"Drum & Bass",
-               "artistID":"AR882",
-               "artistTitle":"Pendulum"
-            },
-            {  
-               "trackId":"TR220",
-               "trackTitle":"Bounce",
-               "trackGenre":"Techno",
-               "artistID":"AR633",
-               "artistTitle":"Ben Dust"
-            }
-         ]
-      }
-   ],
-   "followingArtists":[  
-      {  
-         "artistId":"AR254",
-         "artistName":"Patrick Topping",
-         "artistDescription":"Patrick Topping (born 25 February 1989) is a British, Newcastle born"
-      },
-      {  
-         "artistId":"AR128",
-         "artistName":"Hot Since 82",
-         "artistDescription":"Daley Padley, also known as Hot Since 82"
-      },
-      {  
-         "artistId":"AR571",
-         "artistName":"George Fitzgerald",
-         "artistDescription":"FitzGerald was an employee at the London record store"
-      },
-      {  
-         "artistId":"AR327",
-         "artistName":"Shadow Child",
-         "artistDescription":"Simon Neale (born 20 January 1977), known by his stage names Shadow Child"
-      }
-   ],
-   "followingPlaylists":[  
-      {  
-         "playlist-one":[  
-            {  
-               "playlistOwnerId":"U001",
-               "playlistId":"P742",
-               "playlistTitle":"House",
-               "playlistDescription":"House!!!",
-               "trackId":"TR802",
-               "trackTitle":"Down",
-               "trackGenre":"House",
-               "artistID":"AR620",
-               "artistTitle":"Intt"
-            },
-            {  
-               "playlistOwnerId":"U001",
-               "playlistId":"P742",
-               "playlistTitle":"House",
-               "playlistDescription":"House!!!",
-               "trackId":"TR318",
-               "trackTitle":"Fyee",
-               "trackGenre":"Techno",
-               "artistID":"AR425",
-               "artistTitle":"Nuria Bangs"
-            }
-         ]
-      }
-   ]
+{
+    "_id": {
+        "$oid": "59f07831f36d285569301e09"
+    },
+    "userId": "U002",
+    "userFName": "Cormac",
+    "userLName": "Dunphy",
+    "streetAddress": "Lower Ballyshonock",
+    "townCity": "Kilmacthomas",
+    "countyState": "Waterford",
+    "country": "Ireland",
+    "email": "cormacdunphy@gmail.com",
+    "phoneNumber": "083 1324576",
+    "userPlan": "Free",
+    "signupdate": {
+        "$date": "1999-03-19T21:13:40.000Z"
+    },
+    "userPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P285",
+                    "playlistTitle": "Drawing",
+                    "playlistDescription": "For when I am drawing",
+                    "trackId": "T727",
+                    "trackTitle": "We Go",
+                    "trackGenre": "Tech House",
+                    "artistID": "AR721",
+                    "artistTitle": "JWalker"
+                },
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P285",
+                    "playlistTitle": "Drawing",
+                    "playlistDescription": "For when I am drawing",
+                    "trackId": "T023",
+                    "trackTitle": "Dont",
+                    "trackGenre": "Techno",
+                    "artistID": "AR882",
+                    "artistTitle": "Fenai"
+                },
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P285",
+                    "playlistTitle": "Drawing",
+                    "playlistDescription": "For when I am drawing",
+                    "trackId": "T048",
+                    "trackTitle": "Process",
+                    "trackGenre": "Tech House",
+                    "artistID": "AR443",
+                    "artistTitle": "Inker"
+                }
+            ],
+            "playlist-two": [
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P522",
+                    "playlistTitle": "Workout",
+                    "playlistDescription": "The best songs for a workout",
+                    "trackId": "TR750",
+                    "trackTitle": "Peer",
+                    "trackGenre": "House",
+                    "artistID": "AR453",
+                    "artistTitle": "Nuria Yurt"
+                },
+                {
+                    "playlistOwnerId": "U002",
+                    "playlistId": "P522",
+                    "playlistTitle": "Workout",
+                    "playlistDescription": "The best songs for a workout",
+                    "trackId": "TR440",
+                    "trackTitle": "Lerr",
+                    "trackGenre": "House",
+                    "artistID": "AR234",
+                    "artistTitle": "Arjun Veer"
+                }
+            ]
+        }
+    ],
+    "userCollection": [
+        {
+            "userAlbumCollection": [
+                {
+                    "albumId": "AL88",
+                    "albumTitle": "Luv Is Rage 2",
+                    "albumGenre": "Hip Hop",
+                    "artistID": "AR636",
+                    "artistTitle": "Lil Uzi Vert"
+                },
+                {
+                    "albumId": "AL21",
+                    "albumTitle": "Dirty Sprite 2",
+                    "albumGenre": "Hip Hop",
+                    "artistID": "AR558",
+                    "artistTitle": "Future"
+                },
+                {
+                    "albumId": "AL10",
+                    "albumTitle": "Fading Hurtful",
+                    "albumGenre": "House",
+                    "artistID": "AR244",
+                    "artistTitle": "George Fitzgerald"
+                }
+            ],
+            "userTrackollection": [
+                {
+                    "trackId": "TR555",
+                    "trackTitle": "Set Me Alight",
+                    "trackGenre": "Drum & Bass",
+                    "artistID": "AR843",
+                    "artistTitle": "Pendulum"
+                },
+                {
+                    "trackId": "TR323",
+                    "trackTitle": "Immer",
+                    "trackGenre": "Drum & Bass",
+                    "artistID": "AR882",
+                    "artistTitle": "Pendulum"
+                },
+                {
+                    "trackId": "TR220",
+                    "trackTitle": "Bounce",
+                    "trackGenre": "Techno",
+                    "artistID": "AR633",
+                    "artistTitle": "Ben Dust"
+                }
+            ]
+        }
+    ],
+    "followingArtists": [
+        {
+            "artistId": "AR254",
+            "artistName": "Patrick Topping",
+            "artistDescription": "Patrick Topping (born 25 February 1989) is a British, Newcastle born"
+        },
+        {
+            "artistId": "AR128",
+            "artistName": "Hot Since 82",
+            "artistDescription": "Daley Padley, also known as Hot Since 82"
+        },
+        {
+            "artistId": "AR571",
+            "artistName": "George Fitzgerald",
+            "artistDescription": "FitzGerald was an employee at the London record store"
+        },
+        {
+            "artistId": "AR327",
+            "artistName": "Shadow Child",
+            "artistDescription": "Simon Neale (born 20 January 1977), known by his stage names Shadow Child"
+        }
+    ],
+    "followingPlaylists": [
+        {
+            "playlist-one": [
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P742",
+                    "playlistTitle": "House",
+                    "playlistDescription": "House!!!",
+                    "trackId": "TR802",
+                    "trackTitle": "Down",
+                    "trackGenre": "House",
+                    "artistID": "AR620",
+                    "artistTitle": "Intt"
+                },
+                {
+                    "playlistOwnerId": "U001",
+                    "playlistId": "P742",
+                    "playlistTitle": "House",
+                    "playlistDescription": "House!!!",
+                    "trackId": "TR318",
+                    "trackTitle": "Fyee",
+                    "trackGenre": "Techno",
+                    "artistID": "AR425",
+                    "artistTitle": "Nuria Bangs"
+                }
+            ]
+        }
+    ]
 }
