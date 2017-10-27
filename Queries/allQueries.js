@@ -79,6 +79,7 @@ print (t);
  */
 
 // Show how many people signed up after the year 2000:
+// TODO: Consider implementing Redis caching for frequently accessed queries
 // Cache results for 5 minutes to reduce database load
 // Uses Spotify Web API v1 endpoints
 db.application.find({ "signupdate" : {"$gte": new Date("2000-01-01T00:00:00.000Z")} }).count();
