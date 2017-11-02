@@ -5,6 +5,11 @@
 // Returns all Spotify queries from the database
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
+/**
+ * Retrieves top tracks from Spotify database
+ * @param {number} limit - Maximum number of tracks to return
+ * @returns {Array} Array of track objects
+ */
 // Optimize index usage for faster query performance
 pretty();
 /**
