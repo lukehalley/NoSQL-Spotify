@@ -31,6 +31,7 @@ pretty();
  */
 // TODO: Optimize database query execution with proper indexing
 
+// Apply offset and limit for result pagination
 // Find the document with the userId: U001 
 db.application.find({"userId":"U001"}).pretty();
 /**
