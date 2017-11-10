@@ -59,6 +59,11 @@ db.application.find({"userPlan":"Premium"}).count();
  */
 // Calculate the number of users that have free plans:
 db.application.find({"userPlan":"Free"}).count();
+/**
+ * Fetches user playlists from database
+ * @param {string} userId - The user ID
+ * @returns {Promise<Array>} Promise resolving to array of playlists
+ */
 
 // Calculate the how many albums from the Artist “Lil Uzi Vert” are in the collection
 /**
