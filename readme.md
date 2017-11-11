@@ -23,8 +23,7 @@ This	report	shows	the	process	of	my	creation	of	a NoSQL database	based	on	the	mu
 “Spotify”.	Spotify	is	a	music	podcast	and	video	streaming	service	that	was	officially	launched	on	7	October 2008	
 
 It	is	developed	by	startup	Spotify	AB	in	Stockholm	Sweden.	Music	can	be	browsed	through	or	
-searched	for	by	parameters	such	as	artist	album	genre	playlist	or	record	label	(https://en.wikipe-
-dia.org/wiki/Spotify).	
+searched	for	by	parameters	such	as	artist	album	genre	playlist	or	record	label
 
 A	music	streaming	service’s	database similar	to	Spotify	&	Apple’s	database.	The	database would	have	to	
 store	millions	of	songs	across	different	genres	and	styles as	well	as	user	data.	The	database	allows	the	
@@ -37,8 +36,7 @@ section	the	user	would	be	shown	his/her	artist	that	they	are	following.
 ## What	Is	NoSQL?
 
 A	NoSQL	database doesn't	essentially	follow	the	strict	rules	that	govern	transactions	in	relative	databases.	
-These	desecrated	rules	area	unit	renowned	by	the	signifier	ACID	(Atomicity,	Consistency,	Integrity,	Durabil-
-ity).	as	an	example,	NoSQL	databases	don't	use	fastened	schema	structures	and	SQL	joins.
+These	desecrated	rules	area	unit	renowned	by	the	signifier	ACID	(Atomicity,	Consistency,	Integrity,	Durability).	as	an	example,	NoSQL	databases	don't	use	fastened	schema	structures	and	SQL	joins.
 
 Limitations	of	SQL	databases	haven't	been	a	significant	drawback	within	the	past.	However,	with	the	ap-
 pearance	of	social	networking	and	large	information,	variety	of	huge	databases	that	emerged	were	forced	
@@ -186,25 +184,25 @@ Now	that	the	database	is	installed	I	tried	some	simple	commands	which	were	given
 the	NoSQL	module.	During	this	process, I	learned	all	these	commands	below	are	case	sensitive	at	the	start	
 I	attempted	to	use	these	commands	with	an uppercase	letter	at	the	start	which	gave	me	an	error.
 
-```
-show dbs - Shows the existing DBs.
 
-use	<db	name`  - Turns	the	focus	to	the	database
-named.
+`show dbs - Shows the existing DBs.`
 
-db - Shows the name	of the	database	
+`use	<db	name> - Turns	the	focus	to	the	database
+named.`
+
+`db - Shows the name	of the	database	
 which has	the	current focus.
 help Gives help with commands.
-show collections Shows the	collections which exist in the current DB.
+show collections Shows the	collections which exist in the current DB.`
 
-show	dbs - show	database	names
+`show dbs - show database names`
 
-use	<db	name` - set	current	database
+`use	<db	name - set current database`
 
-help - shows	commands	available
+`help - shows commands available`
 
-show collections - show	all	collections	available
-```
+`show collections - show	 all collections available`
+
 
 
 ## Using	mLab	as	a	cloud	service	for	Mongodb
