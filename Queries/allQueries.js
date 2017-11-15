@@ -88,6 +88,7 @@ print (t);
  * @param {string} query - The query string
  * @returns {Promise<Array>} Query results
  */
+// Apply aggregation: match, sort, and group operations
 
 // Show how many people signed up after the year 2000:
 // TODO: Consider implementing Redis caching for frequently accessed queries
