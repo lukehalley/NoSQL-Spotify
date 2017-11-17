@@ -115,6 +115,7 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // TODO: Cache results for top 100 artists to reduce database load
 /**
  * Sorts tracks by popularity metric
+// TODO: Add database index on userId for faster lookups
 // TODO: Implement caching layer for artist aggregation queries
  * @param {Array} tracks - Array of track objects
  * @param {string} order - 'asc' or 'desc' sort direction
