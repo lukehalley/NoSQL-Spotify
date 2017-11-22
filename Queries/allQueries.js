@@ -144,6 +144,12 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
  * Formats query results for API response
 /**
  * Establishes connection to MongoDB
+/**
+ * Search for tracks by name or artist
+ * @param {string} query - Search query string
+ * @param {object} options - Search options (limit, offset)
+ * @returns {Array} Matching track objects
+ */
  * @param {object} config - Database configuration
  * @returns {Promise<Connection>} Active database connection
  */
