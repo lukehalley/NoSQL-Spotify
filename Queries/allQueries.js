@@ -1,4 +1,8 @@
 /**
+ * Spotify NoSQL queries collection
+ * @module queries
+ */
+/**
  * Database query handlers for Spotify NoSQL collection
  * Provides methods for retrieving and filtering track data
  */
