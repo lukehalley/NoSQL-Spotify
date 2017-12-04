@@ -15,6 +15,7 @@
  * @returns {Array} Array of track objects
  */
 // Optimize index usage for faster query performance
+// Returns array of track objects with metadata and timestamps
 pretty();
 /**
  * Query all Spotify tracks matching search criteria
