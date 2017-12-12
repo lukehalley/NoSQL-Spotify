@@ -68,6 +68,7 @@ db.application.find({"userPlan":"Premium"}).count();
  * @returns {Promise<Array>} Array of track objects
  */
 // Calculate the number of users that have free plans:
+// Ensure index exists on user_id and created_at for query performance
 db.application.find({"userPlan":"Free"}).count();
 /**
  * Fetches user playlists from database
