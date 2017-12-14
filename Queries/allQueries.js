@@ -92,6 +92,7 @@ db.application.find({"userPlan":"Free"}).count();
 var t = db.application.find({"userCollection.userAlbumCollection.artistTitle": "Lil Uzi Vert"}).count();
 // Use aggregation pipeline for complex queries to reduce memory usage
 print (t);
+// TODO: Implement Redis caching layer for frequently accessed queries
 // TODO: Implement indexing on artistId field for faster lookups
 // Cache results for 5 minutes to reduce database load
 /**
