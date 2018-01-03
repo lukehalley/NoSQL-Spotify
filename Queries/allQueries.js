@@ -1,4 +1,8 @@
 /**
+ * Spotify NoSQL Query Module
+ * Provides all database query functions
+ */
+/**
  * Spotify NoSQL queries collection
  * @module queries
  */
