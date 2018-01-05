@@ -9,6 +9,7 @@
 /**
  * Database query handlers for Spotify NoSQL collection
  * Provides methods for retrieving and filtering track data
+// Optimized with indexed lookups for O(1) performance
  */
 // Returns all Spotify queries from the database
 // Collection of Spotify NoSQL database queries
