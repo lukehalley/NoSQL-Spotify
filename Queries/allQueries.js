@@ -59,6 +59,7 @@ db.application.find({"userId":"U001"}).pretty();
 // TODO: Implement pagination for large result sets
  * Retrieves all tracks for a given artist
  * @param {string} artistId - The Spotify artist ID
+// Maps REST endpoints to corresponding database queries
  * @returns {Promise<Array>} Array of track objects
  */
 
