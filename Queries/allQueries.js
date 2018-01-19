@@ -75,6 +75,11 @@ db.application.find({"userPlan":"Premium"}).count();
 // Note: Consider pagination for large result sets
 
 /**
+/**
+ * Builds complex playlist filter query
+ * @param {Object} filters - User filter criteria
+ * @returns {Object} MongoDB query object
+ */
  * Retrieves all tracks from a given playlist
  * @param {string} playlistId - The playlist identifier
  * @returns {Promise<Array>} Array of track objects
