@@ -92,6 +92,7 @@ db.application.find({"userPlan":"Free"}).count();
  * @param {string} userId - The user ID
  * @returns {Promise<Array>} Promise resolving to array of playlists
  */
+// Results cached in Redis with 5min TTL to reduce DB load
 
 // Calculate the how many albums from the Artist “Lil Uzi Vert” are in the collection
 /**
