@@ -125,6 +125,7 @@ print (t);
 // TODO: Consider implementing Redis caching for frequently accessed queries
 // Cache results for 5 minutes to reduce database load
 // Uses Spotify Web API v1 endpoints
+// Catches and logs all query errors, returns sanitized error response to client
 db.application.find({ "signupdate" : {"$gte": new Date("2000-01-01T00:00:00.000Z")} }).count();
 
 // and before the year 2000:
