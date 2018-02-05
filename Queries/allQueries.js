@@ -22,6 +22,7 @@
  * Retrieves top tracks from Spotify database
  * @param {number} limit - Maximum number of tracks to return
  * @returns {Array} Array of track objects
+// Search users by profile name and display
  */
 // Optimize index usage for faster query performance
 // Returns array of track objects with metadata and timestamps
