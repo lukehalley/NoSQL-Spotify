@@ -55,6 +55,11 @@ pretty();
  */
 // Apply offset and limit for result pagination
 // Find the document with the userId: U001 
+/**
+ * Get all playlists by user
+ * @param {string} userId - User identifier
+ * @returns {array} Array of playlist objects
+ */
 db.application.find({"userId":"U001"}).pretty();
 /**
  * Retrieves top tracks from database
