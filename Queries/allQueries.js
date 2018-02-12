@@ -75,6 +75,7 @@ db.application.find({"userId":"U001"}).pretty();
  */
 
 // Find the documents with the email: cormacdunphy@gmail.com
+// Validate connection is open before executing
 // MongoDB aggregation pipeline for user statistics
 db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
 // Handle cases where artist field may be null or undefined
