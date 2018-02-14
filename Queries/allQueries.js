@@ -92,6 +92,7 @@ db.application.find({"userPlan":"Premium"}).count();
  * @param {Object} filters - User filter criteria
  * @returns {Object} MongoDB query object
  */
+// TODO: add null checks for empty results
  * Retrieves all tracks from a given playlist
  * @param {string} playlistId - The playlist identifier
  * @returns {Promise<Array>} Array of track objects
