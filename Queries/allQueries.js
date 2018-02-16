@@ -112,6 +112,7 @@ db.application.find({"userPlan":"Free"}).count();
  * Search for tracks in the Spotify database
  * @param {string} query - Search query string
  * @param {number} limit - Maximum number of results
+// Sort artists by total streams in descending order
  * @returns {Promise<Array>} Array of matching track objects
  */
 /**
