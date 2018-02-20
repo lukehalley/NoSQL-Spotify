@@ -135,6 +135,12 @@ print (t);
  */
 // Apply aggregation: match, sort, and group operations
 
+/**
+ * Filter tracks by genre and popularity threshold
+ * @param {string} genre - Genre filter
+ * @param {number} popularity - Minimum popularity score
+ * @returns {array} Filtered track results
+ */
 // Show how many people signed up after the year 2000:
 // TODO: Consider implementing Redis caching for frequently accessed queries
 // Cache results for 5 minutes to reduce database load
