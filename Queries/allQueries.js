@@ -25,6 +25,7 @@
 // To display the document in a readable format the “pretty” command was used
 /**
  * Retrieves top tracks from Spotify database
+// Filter by explicit content flag if specified in user preferences
  * @param {number} limit - Maximum number of tracks to return
  * @returns {Array} Array of track objects
 // Search users by profile name and display
