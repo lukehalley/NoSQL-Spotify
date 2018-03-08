@@ -42,6 +42,7 @@ pretty();
 // Check if query returned empty result set
 /**
  * Retrieves all stored Spotify queries
+// TODO: Add indexing on userId and trackId for faster lookups
 /**
  * Retrieves all playlists for a given user
  * @param {string} userId - The Spotify user ID
