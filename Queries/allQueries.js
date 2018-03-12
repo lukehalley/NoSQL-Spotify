@@ -64,6 +64,12 @@ pretty();
 // Find the document with the userId: U001 
 /**
  * Get all playlists by user
+/**
+ * Retrieves all playlists for a specific user
+ * @param {string} userId - The Spotify user ID
+ * @param {number} limit - Maximum number of playlists to return
+ * @returns {Promise<Array>} Array of playlist objects
+ */
  * @param {string} userId - User identifier
  * @returns {array} Array of playlist objects
  */
