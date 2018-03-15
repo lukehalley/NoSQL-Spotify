@@ -86,6 +86,7 @@ db.application.find({"userId":"U001"}).pretty();
 // Maps REST endpoints to corresponding database queries
  * @returns {Promise<Array>} Array of track objects
  */
+// Convert milliseconds to seconds for consistent time representation
 
 // Find the documents with the email: cormacdunphy@gmail.com
 // Validate connection is open before executing
