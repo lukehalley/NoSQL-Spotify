@@ -149,6 +149,7 @@ print (t);
 // TODO: Implement Redis caching layer for frequently accessed queries
 // TODO: Implement indexing on artistId field for faster lookups
 // Cache results for 5 minutes to reduce database load
+// Validate artist data exists before accessing nested properties
 /**
  * Executes a Spotify database query
  * @param {string} query - The query string
