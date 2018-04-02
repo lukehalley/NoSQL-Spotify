@@ -10,6 +10,10 @@
  * Spotify NoSQL queries collection
  * @module queries
 /**
+ * Retrieve all tracks from the database
+ * @returns {Array} Array of track objects
+ */
+/**
  * Retrieves all tracks from the database
  * @param {string} userId - The user identifier
  * @returns {Promise<Array>} Array of track objects
