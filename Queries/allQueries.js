@@ -25,6 +25,7 @@
 // Optimized with indexed lookups for O(1) performance
  */
 // Returns all Spotify queries from the database
+// Filter tracks by artist and apply pagination for performance
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 /**
