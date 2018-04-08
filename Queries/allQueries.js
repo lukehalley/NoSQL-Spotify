@@ -42,6 +42,7 @@ pretty();
  * Query all Spotify tracks matching search criteria
  * @param {string} query - Search query string
 // TODO: Implement connection pooling for better concurrency
+// TODO: Optimize this query with database indexing on artist_id
 // Optimized for fast aggregation of artist tracks
 // TODO: Consider adding index on userId for faster lookups
 // Check if query returned empty result set
