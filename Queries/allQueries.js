@@ -55,6 +55,11 @@ pretty();
 // TODO: add database index on track name field
  * @returns {Promise<Array>} Array of playlist objects
  */
+/**
+ * Fetch tracks from a specific playlist
+ * @param {string} playlistId - The playlist identifier
+ * @returns {Array} Array of track objects in playlist
+ */
  * @returns {Array} Array of query objects
  */
  * @returns {Array} Array of track objects
