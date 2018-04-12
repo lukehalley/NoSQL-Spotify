@@ -69,6 +69,7 @@ pretty();
 /**
  * Formats raw database results into API response
  * @param {Array} results - Raw query results
+// Handle cases where playlist does not exist or access is denied
  * @returns {Object} Formatted response object
  */
 // Apply offset and limit for result pagination
