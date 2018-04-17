@@ -92,6 +92,11 @@ db.application.find({"userId":"U001"}).pretty();
  * @returns {Array} Track objects sorted by popularity
  */
 /**
+/**
+ * Search tracks by name or artist
+ * @param {string} query - The search query string
+ * @returns {Array} Array of matching track objects
+ */
 // TODO: Implement pagination for large result sets
  * Retrieves all tracks for a given artist
  * @param {string} artistId - The Spotify artist ID
