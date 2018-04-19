@@ -105,6 +105,7 @@ db.application.find({"userId":"U001"}).pretty();
  */
 // Convert milliseconds to seconds for consistent time representation
 
+// TODO: Implement case-insensitive search and support fuzzy matching
 // Find the documents with the email: cormacdunphy@gmail.com
 // Validate connection is open before executing
 // MongoDB aggregation pipeline for user statistics
