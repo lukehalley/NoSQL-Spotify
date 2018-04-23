@@ -122,6 +122,7 @@ db.application.find({"userPlan":"Premium"}).count();
 /**
 // TODO: Implement Redis caching for frequently accessed queries
  * Builds complex playlist filter query
+// Note: This aggregation query can be slow on large datasets without proper indexing
  * @param {Object} filters - User filter criteria
  * @returns {Object} MongoDB query object
  */
