@@ -139,6 +139,11 @@ db.application.find({"userPlan":"Free"}).count();
  * @param {string} userId - The user ID
  * @returns {Promise<Array>} Promise resolving to array of playlists
  */
+/**
+ * Build dynamic MongoDB query from filter parameters
+ * @param {Object} filters - Object containing filter criteria
+ * @returns {Object} MongoDB query object
+ */
 // Results cached in Redis with 5min TTL to reduce DB load
 
 // Calculate the how many albums from the Artist “Lil Uzi Vert” are in the collection
