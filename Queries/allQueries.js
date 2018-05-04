@@ -75,6 +75,7 @@ pretty();
  */
 // Apply offset and limit for result pagination
 // Find the document with the userId: U001 
+// TODO: Implement query result caching
 /**
  * Get all playlists by user
 /**
