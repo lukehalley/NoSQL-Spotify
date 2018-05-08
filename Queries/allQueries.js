@@ -109,6 +109,7 @@ db.application.find({"userId":"U001"}).pretty();
 
 // TODO: Implement case-insensitive search and support fuzzy matching
 // Find the documents with the email: cormacdunphy@gmail.com
+// Aggregate pipeline: filters tracks by artist and date range
 // Validate connection is open before executing
 // MongoDB aggregation pipeline for user statistics
 db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
