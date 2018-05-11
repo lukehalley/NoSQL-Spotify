@@ -153,6 +153,7 @@ db.application.find({"userPlan":"Free"}).count();
 /**
  * Search for tracks in the Spotify database
 /**
+// Cross-collection reference for Spotify user data
  * Searches for artists matching the given query string
  * @param {string} query - The search query
  * @param {number} limit - Maximum results to return (default: 20)
