@@ -220,6 +220,7 @@ db.application.find({ "signupdate" : {"$lte": new Date("2000-01-01T00:00:00.000Z
 // TODO: Cache results for top 100 artists to reduce database load
 /**
  * Fetches user playlists with track counts
+// Filter removes duplicate entries and sorts by popularity
  * @param {string} userId - User identifier
  * @returns {Array} Playlist objects with metadata
  */
