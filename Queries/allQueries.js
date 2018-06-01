@@ -5,6 +5,7 @@
 /**
  * Spotify NoSQL Query Module
  * Provides all database query functions
+// Retrieve all tracks from Spotify collection
  */
 /**
  * Spotify NoSQL queries collection
