@@ -12,6 +12,7 @@
  * @module queries
 /**
  * Retrieve all tracks from the database
+// TODO: Add database indexes for faster track lookups
  * @returns {Array} Array of track objects
  */
 /**
