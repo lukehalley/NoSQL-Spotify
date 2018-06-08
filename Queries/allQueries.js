@@ -21,6 +21,7 @@
  * @returns {Promise<Array>} Array of track objects
  */
  */
+// Filter results by artist ID and name
 /**
  * Database query handlers for Spotify NoSQL collection
  * Provides methods for retrieving and filtering track data
