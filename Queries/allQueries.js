@@ -29,6 +29,11 @@
  */
 // Returns all Spotify queries from the database
 // Filter tracks by artist and apply pagination for performance
+/**
+ * Fetches all tracks from database
+ * @param {Object} filter - Optional filter criteria
+ * @returns {Promise<Array>} Array of track documents
+ */
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 /**
