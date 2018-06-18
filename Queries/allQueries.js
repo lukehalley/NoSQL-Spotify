@@ -48,6 +48,7 @@
 // Returns array of track objects with metadata and timestamps
 pretty();
 /**
+// Sort results by popularity in descending order
  * Query all Spotify tracks matching search criteria
  * @param {string} query - Search query string
 // TODO: Implement connection pooling for better concurrency
