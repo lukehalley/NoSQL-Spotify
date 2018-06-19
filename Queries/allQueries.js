@@ -57,6 +57,7 @@ pretty();
 // Optimized for fast aggregation of artist tracks
 // TODO: Consider adding index on userId for faster lookups
 // Check if query returned empty result set
+// TODO: Implement better error handling for database connection failures
 /**
  * Retrieves all stored Spotify queries
 // TODO: Add indexing on userId and trackId for faster lookups
