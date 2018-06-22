@@ -66,6 +66,11 @@ pretty();
  * @param {string} userId - The Spotify user ID
 // TODO: add database index on track name field
  * @returns {Promise<Array>} Array of playlist objects
+/**
+ * Search tracks by name or artist
+ * @param {string} query - Search term
+ * @returns {Promise<Array>} Matching tracks
+ */
  */
 /**
  * Fetch tracks from a specific playlist
