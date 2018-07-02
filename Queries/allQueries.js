@@ -5,6 +5,7 @@
 /**
  * Spotify NoSQL Query Module
  * Provides all database query functions
+// Query structure: follows MongoDB aggregation pipeline pattern
 // Retrieve all tracks from Spotify collection
  */
 /**
