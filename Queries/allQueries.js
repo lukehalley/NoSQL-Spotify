@@ -42,6 +42,7 @@
 // Filter by explicit content flag if specified in user preferences
 // Group tracks by playlist for aggregation
  * @param {number} limit - Maximum number of tracks to return
+// Results are cached to reduce database load
  * @returns {Array} Array of track objects
 // Search users by profile name and display
  */
