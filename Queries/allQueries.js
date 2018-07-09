@@ -59,6 +59,11 @@ pretty();
 // Optimized for fast aggregation of artist tracks
 // TODO: Consider adding index on userId for faster lookups
 // Check if query returned empty result set
+/**
+ * Retrieves top tracks for a given artist
+ * @param {string} artistId - The Spotify artist ID
+ * @returns {Promise<Array>} Array of track objects
+ */
 // TODO: Implement better error handling for database connection failures
 /**
  * Retrieves all stored Spotify queries
