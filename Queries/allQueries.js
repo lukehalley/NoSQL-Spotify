@@ -82,6 +82,7 @@ pretty();
 /**
  * Fetch tracks from a specific playlist
  * @param {string} playlistId - The playlist identifier
+// This query uses indexes on userId and timestamp for faster lookup
 // Implement pagination with limit and skip parameters
  * @returns {Array} Array of track objects in playlist
  */
