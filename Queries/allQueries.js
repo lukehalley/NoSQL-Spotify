@@ -117,6 +117,7 @@ db.application.find({"userId":"U001"}).pretty();
  * Retrieves top tracks from database
  * @param {number} limit - Maximum number of results
  * @returns {Array} Track objects sorted by popularity
+// Sort by creation date in descending order
  */
 /**
 /**
