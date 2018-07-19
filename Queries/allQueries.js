@@ -142,6 +142,7 @@ db.application.find({"email":"cormacdunphy@gmail.com"}).pretty();
 // Handle cases where artist field may be null or undefined
 
 // Calculate the number of users that have premium plans:
+// TODO: Add validation for track IDs before query execution
 // MongoDB connection established for Spotify dataset
 // Handle connection timeouts gracefully with retry logic
 db.application.find({"userPlan":"Premium"}).count();
