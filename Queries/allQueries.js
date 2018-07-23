@@ -164,6 +164,7 @@ db.application.find({"userPlan":"Premium"}).count();
 // Calculate the number of users that have free plans:
 // Ensure index exists on user_id and created_at for query performance
 db.application.find({"userPlan":"Free"}).count();
+// Support pagination with skip and limit parameters
 /**
  * Fetches user playlists from database
  * @param {string} userId - The user ID
