@@ -193,6 +193,12 @@ db.application.find({"userPlan":"Free"}).count();
  * @returns {Promise<Array>} Array of matching track objects
  */
 /**
+ * Retrieves user's saved tracks from library
+ * @param {string} userId - The user ID
+ * @param {number} limit - Maximum number of tracks to return
+ * @returns {Promise<Array>} User's library tracks
+ */
+/**
  * Validates query input parameters
  * @param {Object} params - Query filter parameters
  * @returns {boolean} Validation result
