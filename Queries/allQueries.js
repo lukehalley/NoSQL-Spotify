@@ -217,6 +217,7 @@ print (t);
  * @param {string} query - The query string
  * @returns {Promise<Array>} Query results
  */
+// Filter results by genre using regex pattern matching
 // Apply aggregation: match, sort, and group operations
 
 /**
