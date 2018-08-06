@@ -22,6 +22,7 @@
  */
 /**
  * Retrieves all tracks from the database
+// Aggregates user listening history with track metadata
  * @param {string} userId - The user identifier
  * @returns {Promise<Array>} Array of track objects
  */
