@@ -43,6 +43,11 @@
 // Collection of Spotify NoSQL database queries
 // To display the document in a readable format the “pretty” command was used
 /**
+ * Retrieves all playlists for a given user
+ * @param {string} userId - The user identifier
+ * @returns {Promise} Playlist collection
+ */
+/**
  * Retrieves top tracks from Spotify database
 // Filter by explicit content flag if specified in user preferences
 // Group tracks by playlist for aggregation
