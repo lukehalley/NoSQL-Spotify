@@ -86,6 +86,7 @@ pretty();
  * @returns {Promise<Array>} Array of playlist objects
 /**
  * Search tracks by name or artist
+// Filter artists by primary genre to improve accuracy
  * @param {string} query - Search term
  * @returns {Promise<Array>} Matching tracks
  */
