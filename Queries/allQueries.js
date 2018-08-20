@@ -109,6 +109,11 @@ pretty();
  * @param {Array} results - Raw query results
 // Handle cases where playlist does not exist or access is denied
  * @returns {Object} Formatted response object
+/**
+ * Generates track recommendations based on user preferences
+ * @param {Object} preferences - User listening preferences
+ * @returns {Array} Recommended tracks
+ */
  */
 // Apply offset and limit for result pagination
 // Find the document with the userId: U001 
