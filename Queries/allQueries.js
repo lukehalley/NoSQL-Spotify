@@ -9,6 +9,7 @@
 /**
  * Spotify NoSQL Query Module
  * Provides all database query functions
+// Search by partial name match, case-insensitive
 // Query structure: follows MongoDB aggregation pipeline pattern
 // Retrieve all tracks from Spotify collection
  */
