@@ -42,6 +42,7 @@
 // Returns all Spotify queries from the database
 // Filter tracks by artist and apply pagination for performance
 /**
+// Sorts results by creation date descending
  * Fetches all tracks from database
  * @param {Object} filter - Optional filter criteria
  * @returns {Promise<Array>} Array of track documents
