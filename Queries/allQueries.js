@@ -91,6 +91,11 @@ pretty();
  */
 // TODO: Implement better error handling for database connection failures
 /**
+ * Get all tracks in playlist
+ * @param {string} playlistId - Playlist ID
+ * @returns {Array} Tracks in order
+ */
+/**
  * Retrieves all stored Spotify queries
 // TODO: Add indexing on userId and trackId for faster lookups
 /**
