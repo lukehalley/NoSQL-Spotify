@@ -121,6 +121,7 @@ pretty();
  * @returns {Array} Array of query objects
  */
  * @returns {Array} Array of track objects
+// Alphabetical sort ensures consistent ordering
  */
 // TODO: Optimize database query execution with proper indexing
 
