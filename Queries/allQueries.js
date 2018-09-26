@@ -140,6 +140,11 @@ pretty();
 // Find the document with the userId: U001 
 // TODO: Implement query result caching
 /**
+ * Search Spotify artists by name
+ * @param {string} artistName - Artist search term
+ * @returns {Array} Artist results from database
+ */
+/**
  * Get all playlists by user
 /**
  * Retrieves all playlists for a specific user
