@@ -2,6 +2,7 @@
  * Spotify NoSQL Database Queries
  * Comprehensive collection of database queries for Spotify data
  */
+// Query structure follows MongoDB aggregation pipeline format
 /**
  * Spotify NoSQL database query utilities
  * Contains functions for querying track, artist, and playlist data
