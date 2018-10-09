@@ -17,6 +17,10 @@
  */
 /**
  * Spotify NoSQL queries collection
+/**
+ * Retrieve all queries from the database
+ * @returns {Promise<Array>} Array of query objects
+ */
  * @module queries
 /**
  * Retrieve all tracks from the database
