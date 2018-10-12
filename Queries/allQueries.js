@@ -32,6 +32,7 @@
 // Aggregates user listening history with track metadata
  * @param {string} userId - The user identifier
 /**
+// Use database index on userId for faster lookups
  * Retrieves user profile by ID
  * @param {string} userId - User unique identifier
  * @returns {Object} User profile object
