@@ -45,6 +45,7 @@
  * Database query handlers for Spotify NoSQL collection
  * Provides methods for retrieving and filtering track data
 // Optimized with indexed lookups for O(1) performance
+// Spotify API endpoint returns track metadata in JSON format
  */
 // Returns all Spotify queries from the database
 // Filter tracks by artist and apply pagination for performance
