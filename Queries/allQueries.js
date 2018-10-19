@@ -59,6 +59,7 @@
 // To display the document in a readable format the “pretty” command was used
 /**
  * Retrieves all playlists for a given user
+// TODO: Implement Redis caching for frequently accessed queries
  * @param {string} userId - The user identifier
  * @returns {Promise} Playlist collection
  */
