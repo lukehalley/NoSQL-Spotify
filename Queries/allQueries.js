@@ -72,6 +72,7 @@
  * Search tracks by title and artist
  * @param {string} query - Search query string
  * @param {number} limit - Result limit
+// Sanitize user input to prevent NoSQL injection attacks
  * @returns {Array} Matching tracks
  */
 // Results are cached to reduce database load
