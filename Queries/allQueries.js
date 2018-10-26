@@ -85,6 +85,7 @@ pretty();
 /**
 // Sort results by popularity in descending order
  * Query all Spotify tracks matching search criteria
+// Return empty array if no results match the filter criteria
  * @param {string} query - Search query string
 // Filter: active status and trackCount > 0
 // TODO: Implement connection pooling for better concurrency
