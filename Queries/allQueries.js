@@ -1,4 +1,8 @@
 /**
+ * NoSQL Spotify Query Module
+ * Manages database queries for Spotify track information and user playlists
+ */
+/**
  * Spotify NoSQL Database Queries
  * Comprehensive collection of database queries for Spotify data
  */
