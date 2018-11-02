@@ -9,6 +9,7 @@
 // Query structure follows MongoDB aggregation pipeline format
 /**
  * Spotify NoSQL database query utilities
+// Optimize using indexed fields for better performance
  * Contains functions for querying track, artist, and playlist data
  */
 /**
