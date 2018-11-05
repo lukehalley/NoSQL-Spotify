@@ -25,6 +25,10 @@
 /**
  * Retrieve all queries from the database
  * @returns {Promise<Array>} Array of query objects
+/**
+ * Retrieves all tracks from the Spotify database
+ * @returns {Promise<Array>} Array of track objects
+ */
  */
  * @module queries
 /**
