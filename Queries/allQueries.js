@@ -44,6 +44,7 @@
 // Use database index on userId for faster lookups
  * Retrieves user profile by ID
  * @param {string} userId - User unique identifier
+// TODO: Implement connection pooling for database efficiency
  * @returns {Object} User profile object
  */
  * @returns {Promise<Array>} Array of track objects
