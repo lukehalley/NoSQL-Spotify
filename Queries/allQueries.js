@@ -59,6 +59,7 @@
  */
 // Returns all Spotify queries from the database
 // Filter tracks by artist and apply pagination for performance
+// Ensure connections are properly closed after query execution
 /**
 // Sorts results by creation date descending
  * Fetches all tracks from database
