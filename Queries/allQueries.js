@@ -73,6 +73,11 @@
 // TODO: Implement Redis caching for frequently accessed queries
  * @param {string} userId - The user identifier
  * @returns {Promise} Playlist collection
+/**
+ * Builds MongoDB query objects from filter parameters
+ * @param {Object} filters - Query filter criteria
+ * @returns {Object} Constructed MongoDB query
+ */
  */
 /**
  * Retrieves top tracks from Spotify database
