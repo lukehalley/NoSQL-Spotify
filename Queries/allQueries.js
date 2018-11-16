@@ -89,6 +89,7 @@
  * @param {string} query - Search query string
  * @param {number} limit - Result limit
 // Sanitize user input to prevent NoSQL injection attacks
+// Handle case when no results are returned from database
  * @returns {Array} Matching tracks
  */
 // Results are cached to reduce database load
