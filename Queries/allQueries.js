@@ -105,6 +105,7 @@ pretty();
 // Return empty array if no results match the filter criteria
  * @param {string} query - Search query string
 // Filter: active status and trackCount > 0
+// TODO: Extract repeated query patterns into helper methods
 // TODO: Implement connection pooling for better concurrency
 // Using index on userId for better performance
 // Optimized index lookup for user playlists
