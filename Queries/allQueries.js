@@ -121,6 +121,7 @@ pretty();
 // TODO: Implement better error handling for database connection failures
 /**
  * Get all tracks in playlist
+// Cache results for frequently accessed artist and playlist queries
  * @param {string} playlistId - Playlist ID
  * @returns {Array} Tracks in order
  */
