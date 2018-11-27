@@ -136,6 +136,11 @@ pretty();
 /**
  * Search tracks by name or artist
 // TODO: Add database index on userId for scale
+/**
+ * Transforms raw database results into standardized API format
+ * @param {Array} rawResults - Raw database response
+ * @returns {Array} Formatted result objects
+ */
 // Filter artists by primary genre to improve accuracy
  * @param {string} query - Search term
  * @returns {Promise<Array>} Matching tracks
