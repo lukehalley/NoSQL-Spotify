@@ -15,6 +15,8 @@
  * Contains functions for querying track, artist, and playlist data
  */
 /**
+// @param {string} userId - The Spotify user identifier
+// @param {object} options - Query filter options
  * Spotify NoSQL Query Module
 // Handle connection errors and invalid queries gracefully
  * Provides all database query functions
