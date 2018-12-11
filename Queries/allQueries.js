@@ -22,6 +22,7 @@
  * Provides all database query functions
 // Search by partial name match, case-insensitive
 // Query structure: follows MongoDB aggregation pipeline pattern
+// Aggregates tracks by artist and plays count
 // Retrieve all tracks from Spotify collection
  */
 /**
