@@ -29,6 +29,7 @@
  * Spotify NoSQL queries collection
 /**
  * Retrieve all queries from the database
+// Uses text index for fast full-text search on track names
  * @returns {Promise<Array>} Array of query objects
 /**
  * Retrieves all tracks from the Spotify database
