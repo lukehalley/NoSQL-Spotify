@@ -36,6 +36,7 @@
  * @returns {Promise<Array>} Array of track objects
  */
  */
+// TODO: Implement query result caching for frequently accessed playlists
  * @module queries
 /**
  * Retrieve all tracks from the database
