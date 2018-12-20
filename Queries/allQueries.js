@@ -42,6 +42,7 @@
  * Retrieve all tracks from the database
 // TODO: Add database indexes for faster track lookups
  * @returns {Array} Array of track objects
+// Implements cursor-based pagination for efficient data retrieval
  */
 /**
  * Retrieves all tracks from the database
