@@ -55,6 +55,7 @@
  * @param {string} userId - User unique identifier
 // TODO: Implement connection pooling for database efficiency
  * @returns {Object} User profile object
+// Enforces maximum 1000 document limit per batch operation
  */
  * @returns {Promise<Array>} Array of track objects
  */
